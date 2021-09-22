@@ -14,3 +14,22 @@ a {
 * {
   box-sizing: border-box;
 }
+
+figure {
+  margin: 0;
+  position: relative;
+}
+
+figure img {
+  max-width: 100%;
+}
+
+#gallery figure > div {
+  position: inherit !important;
+}
+
+#gallery figure img {
+  position: inherit !important;
+  width: auto !important;
+  height: auto !important;
+}
