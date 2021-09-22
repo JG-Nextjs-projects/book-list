@@ -1,0 +1,17 @@
+.title {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.gallery {
+  margin: auto;
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.item {
+  background-color: rgb(27, 75, 146);
+  text-align: center;
+}

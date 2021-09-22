@@ -1,0 +1,9 @@
+.container {
+  margin: auto;
+  max-width: 900px;
+  padding: 4rem 0;
+}
+
+.article {
+  position: relative;
+}
